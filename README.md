@@ -40,3 +40,7 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
  1. Basic concepts
 
 - To create routes it is enough to create a folder and under a page.js file
+
+# -- Frame-motion
+
+if we want to give animated navigation there is a component like animatePresence which allows you to make animation when the component leaves the React tree
