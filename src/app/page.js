@@ -3,6 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import Typewriter from "typewriter-effect";
 import { motion } from "framer-motion";
+
 export default function Home() {
   return (
     <motion.div
@@ -11,13 +12,13 @@ export default function Home() {
       animate={{ y: "0%" }}
       transition={{ duration: 1 }}
     >
-      <main className="flex flex-col justify-center h-full mt-2 md:flex-row md:items-center">
+      <div className="flex flex-col h-full sm:px-8 lg:flex-row lg:px-20 md:px-12 xl:px-48">
         {/* image container */}
-        <div className="relative mb-16 h-1/2 md:flex-1 md:w-full">
+        <div className="relative h-1/2 lg:h-full lg:w-1/2">
           <Image src="/oscar1.png" alt="" fill className="object-contain" />
         </div>
         {/* text container */}
-        <div className="flex flex-col justify-center gap-4 text-center h-1/2 md:flex-1 md:gap-4">
+        <div className= "flex flex-col items-center justify-center gap-8 h-1/2 lg:h-full lg:w-1/2">
           <h1 className="text-3xl font-semibold tracking-wide text-center lg:4xl">
             Front-end / Full-stack Developer
           </h1>
@@ -40,20 +41,20 @@ export default function Home() {
             metric-oriented approach to every project.
           </p>
           {/* buttons */}
-          <div className="flex justify-center gap-6">
-            <Link href="/portfolio">
+          <div className="flex justify-center w-full gap-6">
+            <Link href="/portfolio" as="script">
               <button className="p-4 bg-[#7979F7] rounded ring-1 ring-black">
                 View All Projects
               </button>
             </Link>
-            <Link href="/contact">
+            <Link href="/contact" as="script">
               <button className="p-4 bg-[#EB494A] rounded ring-1 ring-black">
                 Contact Me
               </button>
             </Link>
           </div>
         </div>
-      </main>
+      </div>
     </motion.div>
   );
 }

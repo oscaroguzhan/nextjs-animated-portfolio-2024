@@ -1,6 +1,6 @@
 import { Inter } from "next/font/google";
 import "./globals.css";
-import Navbar from "./components/Navbar";
+
 import AnimationTransitionProvider from "./components/AnimationTransitionProvider";
 
 const inter = Inter({ subsets: ["latin"] });
@@ -11,11 +11,11 @@ export const metadata = {
     "Modern portfolio app with next14, tailwindcss and framer-motion",
 };
 
-export default function RootLayout({ children }) {
+export default function RootLayout({ children  }) {
   return (
     <html lang="en">
       <body className={inter.className}>
-        <AnimationTransitionProvider>{children}</AnimationTransitionProvider>
+        <AnimationTransitionProvider >{children}</AnimationTransitionProvider>
       </body>
     </html>
   );

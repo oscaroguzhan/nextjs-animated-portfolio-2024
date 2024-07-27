@@ -74,6 +74,7 @@ const Navbar = () => {
             alt="logo"
             width={120}
             height={48}
+            
             className="rounded-md"
           />
         </Link>
@@ -84,10 +85,10 @@ const Navbar = () => {
         ))}
       </div>
       <div className="hidden w-1/3 md:gap-4 md:items-center md:flex md:justify-end ">
-        <Link href="">
+        <Link href="https://github.com/oscaroguzhan">
           <Image src="/github.png" alt="" width={36} height={36} />
         </Link>
-        <Link href="">
+        <Link href="https://www.linkedin.com/in/oscar-wihlborg-erg%C3%BCn/">
           <Image src="/linkedin.png" alt="" width={36} height={36} />
         </Link>
         <Link href="">
@@ -129,7 +130,7 @@ const Navbar = () => {
           {links.map((link) => (
             <motion.div
               variants={listItemVariants}
-              className=""
+              className="cursor-pointer"
               key={link.name}
             >
               <Link href={link.url}>{link.name}</Link>

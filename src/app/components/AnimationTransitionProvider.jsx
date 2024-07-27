@@ -1,8 +1,10 @@
 "use client";
 import React from "react";
-import { motion, AnimatePresence, delay } from "framer-motion";
+import { motion, AnimatePresence } from "framer-motion";
 import Navbar from "./Navbar";
 import { usePathname } from "next/navigation";
+
+
 const AnimationTransitionProvider = ({ children }) => {
   const pathName = usePathname();
   return (
@@ -33,7 +35,7 @@ const AnimationTransitionProvider = ({ children }) => {
         <div className="h-36 bg-[#252D40]">
           <Navbar />
         </div>
-        <div className="h-[calc(100vh-144px)]">{children}</div>
+        <div className="h-[calc(100vh-9rem)]">{children}</div>
       </div>
     </AnimatePresence>
   );
