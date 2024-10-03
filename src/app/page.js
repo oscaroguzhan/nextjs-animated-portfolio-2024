@@ -42,12 +42,12 @@ export default function Home() {
           </p>
           {/* buttons */}
           <div className="flex justify-center w-full gap-6">
-            <Link href="/portfolio" as="script">
+            <Link href="/portfolio" >
               <button className="p-4 bg-[#7979F7] rounded ring-1 ring-black">
                 View All Projects
               </button>
             </Link>
-            <Link href="/contact" as="script">
+            <Link href="/contact" >
               <button className="p-4 bg-[#EB494A] rounded ring-1 ring-black">
                 Contact Me
               </button>
