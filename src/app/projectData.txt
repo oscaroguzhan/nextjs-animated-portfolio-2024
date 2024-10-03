@@ -1,0 +1,67 @@
+export const projects = [
+  {
+    id: 1,
+    
+    title: "My first React portfolio project",
+    desc: "Portfolio app created to practice to react",
+    img: "/assets/project1.png",
+    link: "https://codeguruozzy.com",
+  },
+  {
+    id: 2,
+    
+    title: "Job Finder",
+    desc: "Vue 3 app with typescript",
+    img: "/assets/project2.png",
+    link: "https://fanciful-chimera-360946.netlify.app/",
+  },{
+    id: 3,
+    
+    title: "Maverick Mall",
+    desc: "Modern Fullstack e-commerce app with Wordpress",
+    img: "/assets/project3.png",
+    link: "https://ecommerce-next-sanity-i73kdfivd-oscaroguzhan.vercel.app/",
+  },{
+    id: 4,
+    
+    title: "React movie character app ",
+    desc: "Basic React app, fetch API, CSS3",
+    img: "/assets/project4.png",
+    link: "https://github.com/oscaroguzhan/React-Game-of-thrones-App",
+  }
+  ,{
+    id: 5,
+    
+    title: "Modern E-wallet application ",
+    desc: "Part of a javascript course project with React, Redux, Material Ui, GitHub",
+    img: "/assets/project5.png",
+    link: "https://github.com/oscaroguzhan/React-Game-of-thrones-App",
+  }
+  ,{
+    id: 6,
+    
+    title: "Task Tracker- Vue3 ",
+    desc: "Task tracker with vue-3 that has CRUD functionality",
+    img: "/assets/project6.png",
+    link: "https://vue3-task-tracker.netlify.app/",
+  }
+  ,{
+    id: 7,
+    
+    title: "MERN-booking.com-clone-app ",
+    desc: "It is a full stack-MERN booking.com clone client-side ",
+    img: "/assets/project7.png",
+    link: "https://github.com/oscaroguzhan/mern-booking-app-frontend",
+  }
+  ,{
+    id: 8,
+    
+    title: "React-redux bankomat app ",
+    desc: "Understanding react and redux basics ",
+    img: "/assets/project8.png",
+    link: "https://github.com/oscaroguzhan/react-redux-bankomat-app",
+  }
+  
+  
+];
+
