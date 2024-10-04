@@ -278,7 +278,7 @@ const AboutPage = () => {
                     <div className="p-3 text-sm italic">
                       Plan and lead the daily operations at work with a team of
                       people to ensure the store runs smoothly. Together with
-                      management team Responsible for the store's financial
+                      management team Responsible for the store&apos;s financial
                       performance.
                     </div>
                     {/* date */}

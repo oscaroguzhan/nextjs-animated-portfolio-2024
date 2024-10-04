@@ -27,7 +27,7 @@ const ContactPage = () => {
         }
     const [successMessage, setSuccessMessage] = useState(false);
     const [errorMessage, setErrorMessage] = useState(false);
-    const message = " Let's get in touch";
+    const message = " Let us get in touch";
     return (
       <motion.div
         className="h-full"
